@@ -50,7 +50,7 @@ Zie de bestanden in deze repository voor:
 
 ## 📝 Over mij
 
-Ik ben een ervaren operator die de overstap maakt naar de IT. Mijn focus ligt op netwerkbeheer, security en cloudtechnologie. Ik leer actief, documenteer alles nauwkeurig en werk graag aan gestructureerde systemen.
+Ik ben een ervaren operator die de overstap wil maken naar de IT. Mijn focus ligt op systeem/netwerkbeheer en security. Ik leer actief, documenteer alles nauwkeurig en werk graag aan gestructureerde systemen.
 
 ---
 
