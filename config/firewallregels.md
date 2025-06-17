@@ -9,10 +9,16 @@
 - Allow: alleen naar internet (HTTP/HTTPS/DNS)
 - Block: alle lokale netwerken
 
+## VLAN25 – Smart TV's
+
 ## VLAN30 – IoT
 - Allow: naar internet
 - Allow: naar specifieke IP’s (NAS, Eufy)
 - Block: alle andere VLAN’s
+
+## VLAN35 – SEC
+
+## VLAN40 – NAS
 
 ## VLAN50 – Management
 - Allow: alleen vanaf VLAN10
