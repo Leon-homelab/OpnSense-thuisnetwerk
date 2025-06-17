@@ -20,7 +20,7 @@ Dit project toont een volledig gesegmenteerd thuisnetwerk, opgezet met OPNsense,
 
 | Component       | Beschrijving                                         |
 |------------------|------------------------------------------------------|
-| VLAN-segmentatie | 4 subnetten met individuele firewallregels           |
+| VLAN-segmentatie | 7 subnetten met individuele firewallregels           |
 | Firewallbeleid   | 'Block-first' met expliciete exceptions + logging    |
 | VPN-toegang      | Alleen toegang tot NAS, videodeurbel en sensor       |
 | IDS/IPS          | Suricata actief op WAN-interface                     |
