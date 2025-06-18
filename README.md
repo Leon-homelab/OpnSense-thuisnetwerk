@@ -75,7 +75,7 @@ Dit project demonstreert:
 ## 📫 Contact
 
 * GitHub: [github.com/leon-homelab](https://github.com/leon-homelab)
-* E-mail: \[optioneel]
+* E-mail: leon.homelab@gmail.com
 
 *Laat gerust een issue of pull request achter als je feedback hebt of suggesties!*
 
