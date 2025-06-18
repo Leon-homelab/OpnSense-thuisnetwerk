@@ -9,7 +9,7 @@ Welkom bij mijn persoonlijke IT-homelab. Dit project toont hoe ik een profession
 | Bestand / Map          | Beschrijving                                                 |
 | ---------------------- | ------------------------------------------------------------ |
 | `config/`              | Back-ups van OPNsense instellingen, firewallregels           |
-| `networkdiagram.png`   | Visuele weergave van VLAN-structuur en netwerkapparatuur     |
+| `networkdiagram.png`   | Visuele weergave van netwerkapparatuur     |
 | `wireguard-config.md`  | Uitleg over de WireGuard setup en clientconfiguratie         |
 | `crowdsec-suricata.md` | Logging en detectieregels binnen het netwerk                 |
 | `portfolio.md`         | Portfolio-versie van het project voor sollicitatiedoeleinden |
@@ -37,9 +37,9 @@ leon-homelab/
 
 Dit project demonstreert:
 
-* VLAN-segmentatie met gescheiden netwerken voor thuisgebruik, gasten, IoT en beheer
+* VLAN-segmentatie met gescheiden netwerken voor thuisgebruik, gasten, smart tv's, NAS, deurbel&airco, IoT en beheer
 * Firewallregels gebaseerd op een "block first" aanpak met logging
-* WireGuard VPN met beperkte toegang tot kritieke apparaten
+* WireGuard VPN met beperkte toegang tot NAS, Eufy deurbel en airco
 * Integratie van IDS/IPS (Suricata) en gedragsschild (CrowdSec)
 * Documentatie van het hele netwerk inclusief configuratiebestanden en scripts
 
