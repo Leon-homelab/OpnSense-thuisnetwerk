@@ -37,7 +37,8 @@ leon-homelab/
 
 Dit project demonstreert:
 
-* VLAN-segmentatie met gescheiden netwerken voor thuisgebruik, gasten, smart tv's, NAS, deurbel&airco, IoT en beheer
+* VLAN-segmentatie met gescheiden netwerken voor thuisgebruik, gasten, media, NAS, deurbel&airco, IoT en beheer
+* 2 access points die volgens het roaming principe werken
 * Firewallregels gebaseerd op een "block first" aanpak met logging
 * WireGuard VPN met beperkte toegang tot NAS, Eufy deurbel en airco
 * Integratie van IDS/IPS (Suricata) en gedragsschild (CrowdSec)
