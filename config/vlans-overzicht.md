@@ -4,7 +4,7 @@ VLAN10: Thuisnetwerk
 
 VLAN20: Gastnetwerk 
 
-VLAN25: Smart TV's 
+VLAN25: Media
 
 VLAN30: IoT-apparaten (zonnepanelen, printer) 
 
