@@ -24,6 +24,8 @@ leon-homelab/
 │   ├── opnsense-backup.xml
 │   ├── firewallregels.md
 │   └── vlans-overzicht.md
+|   ├── mikrotikCSS610_VLANS
+|   ├── mikrotikCSS610_VLAN
 ├── wireguard-config.md
 ├── crowdsec-suricata.md
 ├── networkdiagram.png
