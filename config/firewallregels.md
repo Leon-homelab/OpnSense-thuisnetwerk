@@ -2,8 +2,6 @@
 
 ##VLAN10: Thuisnetwerk
 
-    -BLOCK: alles
-
     -ALLOW: naar internet
 
     -ALLOW: naar VLAN50
@@ -12,8 +10,6 @@
 
 
 ##VLAN20: Gastnetwerk
-
-    -BLOCK: alles
 
     -ALLOW: naar internet
 
