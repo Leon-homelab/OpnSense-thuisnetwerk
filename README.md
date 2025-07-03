@@ -30,6 +30,8 @@ leon-homelab/
 ├── crowdsec-suricata.md
 ├── networkdiagram.png
 ├── portfolio.md
+|── OPNsense desktop
+|── firewall log van WAN interface
 └── README.md
 ```
 
