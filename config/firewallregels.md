@@ -1,28 +1,46 @@
-# Firewallregels per VLAN (beknopt overzicht)
+# Firewallregels voor een enkele VLAN's
 
 ##VLAN10: Thuisnetwerk
-
-    -ALLOW: naar internet
-
-    -ALLOW: naar VLAN50
-
-    -BLOCK: fallback block met log
-
+    | # | Action | Protocol | Source     | Destination   | Port(s) / Notes                        |
+| - | ------ | -------- | ---------- | ------------- | -------------------------------------- |
+| 1 | Pass   | Any      | VLAN99 net | VLAN10 net    | “Allow MGMT → LAN beheer”              |
+| 2 | Pass   | TCP/UDP  | VLAN10 net | This Firewall | Dest port 53 → “Allow DNS to Unbound”  |
+| 3 | Pass   | UDP      | VLAN10 net | any           | Dest port 123 → “Allow NTP”            |
+| 4 | Pass   | Any      | VLAN10 net | !RFC1918      | “Allow LAN → Internet”                 |
+| 5 | Block  | Any      | VLAN10 net | RFC1918       | “Block LAN → andere interne netwerken” |
+| 6 | Block  | Any      | VLAN10 net | any           | “Fallback block all”                    |
 
 ##VLAN20: Gastnetwerk
 
-    -ALLOW: naar internet
+##VLAN25: Media
 
-    -BLOCK: fallback block met log
+##VLAN30: IP TV
+| # | Action | Protocol | Source     | Destination   | Port(s) / Notes                        |
+| - | ------ | -------- | ---------- | ------------- | -------------------------------------- |
+| 1 | Pass   | Any      | VLAN99 net | VLAN30 net    | “Allow MGMT → Media beheer”              |
+| 2 | Pass   | TCP/UDP  | VLAN25 net | This Firewall | Dest port 53 → “Allow DNS to Unbound”  |
+| 3 | Pass   | UDP      | VLAN25 net | any           | Dest port 123 → “Allow NTP”            |
+| 4 | Pass   | Any      | VLAN25 net | !RFC1918      | “Allow LAN → Internet”                 |
+| 5 | Block  | Any      | VLAN25 net | RFC1918       | “Block LAN → andere interne netwerken” |
+| 6 | Block  | Any      | VLAN25 net | any           | “Fallback block all”                    |
 
-    
-
-##VLAN25: Smart TV's
-
-##VLAN30: IoT-apparaten (zonnepanelen, printer)
 
 ##VLAN35: Eufi deurbel en Airco
 
 ##VLAN40: NAS
 
-##VLAN50: Management-only (alleen toegankelijk vanuit VLAN10)
+##VLAN50: Domotica
+
+##VLAN99: MGMT
+
+##VLAN300: Odido WAN
+| # | Action | Protocol | Source       | Destination    | Port(s) / Notes                        |
+| - | ------ | -------- | ------------ | -------------- | -------------------------------------- |
+| 1 | Pass   | UDP      | any          | VLAN300 address| 67-68 “DHCP client“              |
+| 2 | Pass   | any      | This firewall| any            | “Firewall outbound“  |
+| 3 | Pass   | ICMP     | any          | any            | “Ping toegestaan“            |
+| 6 | Block  | Any      | VLAN25 net | any           | “Fallback block all”                    |
+
+
+
+
