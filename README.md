@@ -26,7 +26,7 @@ leon-homelab/
 |   ├── mikrotikCSS610_VLAN.png
 |   ├── mikrotikCSS610_VLANS.png
 ├── wireguard-config.md
-├── crowdsec-suricata.md
+├── crowdsec.md
 ├── networkdiagram.png
 ├── portfolio.md
 |── OPNsense desktop
