@@ -1,4 +1,4 @@
-# Firewallregels voor een enkele VLAN's
+# Firewallregels van een enkele VLAN's
 
 ##VLAN10: Thuisnetwerk
     | # | Action | Protocol | Source     | Destination   | Port(s) / Notes                        |
