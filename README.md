@@ -21,7 +21,6 @@ Welkom bij mijn persoonlijke IT-homelab. Dit project toont hoe ik een profession
 ```text
 leon-homelab/
 ├── config/
-│   ├── opnsense-backup.xml
 │   ├── firewallregels.md
 │   └── vlans-overzicht.md
 |   ├── mikrotikCSS610_VLAN.png
