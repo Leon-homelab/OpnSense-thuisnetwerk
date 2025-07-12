@@ -31,7 +31,7 @@ leon-homelab/
 ├── networkdiagram.png
 ├── portfolio.md
 |── OPNsense desktop
-|── firewall log van WAN interface
+|── firewall log
 └── README.md
 ```
 
@@ -44,8 +44,8 @@ Dit project demonstreert:
 * VLAN-segmentatie met gescheiden netwerken voor thuisgebruik, gasten, media, NAS, deurbel&airco, IoT en beheer
 * Twee access points die volgens het roamingprincipe werken
 * Meerdere ssid's voor een correcte vlan toewijzing
-* Firewallregels gebaseerd op een "block first" aanpak met logging
-* WireGuard VPN met beperkte toegang tot NAS, Eufy deurbel en airco
+* Firewallregels gebaseerd op een "Fallback block" met logging
+* WireGuard VPN met beperkte toegang tot OPNsense GUI
 * Integratie van IDS/IPS (Suricata) en gedragsschild (CrowdSec)
 * Documentatie van het hele netwerk inclusief configuratiebestanden en scripts
 
