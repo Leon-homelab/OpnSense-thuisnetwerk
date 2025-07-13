@@ -26,6 +26,16 @@ In je firewall log verschijnen CrowdSec-blokkeringen als volgt:
 - VLAN300 2025-07-10T21:22:42 162.216.150.21:53652 'WAN IP':4174 tcp CrowdSec (IPv4) in
 - VLAN300 2025-07-10T21:22:36 147.185.132.134:51561 'WAN IP':9302 tcp CrowdSec (IPv4) in
 
+In je CrowdSec log verschijnen de volgende blokkeringen:
+
+- 28	Ip:34.52.146.253	firewallservices/pf-scan-multi_ports	BE	GOOGLE-CLOUD-PLATFORM	ban:1	2 days ago
+- 31	Ip:172.234.162.56	firewallservices/pf-scan-multi_ports	FR	Akamai Connected Cloud	ban:1	2 days ago
+- 32	Ip:172.234.162.56	firewallservices/pf-scan-multi_ports	FR	Akamai Connected Cloud	ban:1	2 days ago
+- 46	Ip:82.21.8.11		  firewallservices/pf-scan-multi_ports	PL	BAHU LTD		            ban:1	a day ago
+- 48	Ip:89.42.231.200	firewallservices/pf-scan-multi_ports	NL	Amarutu Technology Ltd	ban:1	a day ago
+- 49	Ip:172.104.241.92	firewallservices/pf-scan-multi_ports	DE	Akamai Connected Cloud	ban:1	a day ago
+- 50	Ip:172.104.241.92	firewallservices/pf-scan-multi_ports	DE	Akamai Connected Cloud	ban:1	a day ago
+
 ---
 
 ## 📡 Locatie in OPNsense](#-locatie-in-opnsense
