@@ -21,7 +21,7 @@ Dit project toont een volledig gesegmenteerd thuisnetwerk, opgezet met OPNsense,
 | Component       | Beschrijving                                         |
 |------------------|------------------------------------------------------|
 | VLAN-segmentatie | 7 subnetten met individuele firewallregels           |
-| Firewallbeleid   | 'Block-first' met expliciete exceptions + logging    |
+| Firewallbeleid   | Expliciete exceptions + logging    |
 | VPN-toegang      | Alleen toegang tot NAS, videodeurbel en sensor       |
 | IDS/IPS          | Suricata actief op WAN-interface                     |
 | Logging          | Elke fallback block gelogd, gekoppeld aan CrowdSec  |
@@ -55,4 +55,4 @@ Ik ben een ervaren operator die de overstap wil maken naar de IT. Mijn focus lig
 ---
 
 **GitHub**: [github.com/leon-homelab](https://github.com/leon-homelab)  
-**E-mail**: [optioneel]  
+**E-mail**: 
