@@ -55,4 +55,4 @@ Ik ben een ervaren operator die de overstap wil maken naar de IT. Mijn focus lig
 ---
 
 **GitHub**: [github.com/leon-homelab](https://github.com/leon-homelab)  
-**E-mail**: 
+**E-mail**: leon.homelab@gmail.com
