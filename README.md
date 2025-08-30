@@ -44,8 +44,8 @@ Dit project demonstreert:
 * Twee access points die volgens het roamingprincipe werken
 * Meerdere ssid's voor een correcte vlan toewijzing
 * Firewallregels gebaseerd op een "Fallback block" met logging
-* WireGuard VPN met beperkte toegang tot OPNsense GUI
-* Integratie van IDS/IPS (Suricata) en gedragsschild (CrowdSec)
+* WireGuard VPN met beperkte toegang tot OPNsense GUI en toegang tot een raspberry pi5, waar nextcloud op draait
+* Integratie van IDS/IPS (Suricata) en gedragsschild (CrowdSec), die meldingen geeft naar telegram bij een IP ban
 * Documentatie van het hele netwerk inclusief configuratiebestanden en scripts
 
 ---
