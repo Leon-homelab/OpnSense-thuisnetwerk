@@ -14,6 +14,12 @@ VLAN40:    NAS (Bereikbaar via VLAN10)
 
 VLAN50:    Domotica (smart lampen, google speakers enz.)
 
+VLAN60:    Proxmox MGMT
+
+VLAN65:    Proxmox Vm's
+
+VLAN70:    Proxmox testlab
+
 VLAN99:    MGMT (Managment)
 
 VLAN300:   Odido WAN
