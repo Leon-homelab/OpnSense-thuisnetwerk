@@ -18,7 +18,7 @@ VLAN60:    Proxmox MGMT
 
 VLAN65:    Proxmox Vm's
 
-VLAN70:    Proxmox testlab
+VLAN70:    Proxmox Testlab
 
 VLAN99:    MGMT (Managment)
 
