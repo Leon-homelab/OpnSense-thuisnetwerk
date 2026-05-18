@@ -60,7 +60,7 @@ Deze container wordt gebruikt voor het beheren en opslaan van back-ups van confi
 
 ---
 
-📚 Calibre CT
+## 📚 Calibre CT
 
 Calibre is een lichtgewicht webapplicatie die een intuïtieve interface biedt voor het beheren, doorzoeken en lezen van een persoonlijke e-bookcollectie binnen het netwerk.
 
@@ -73,7 +73,7 @@ Calibre is een lichtgewicht webapplicatie die een intuïtieve interface biedt vo
 
 ---
 
-📁 File browser CT
+## 📁 File browser CT
 
 File Browser functioneert als een eenvoudige centrale fileserver binnen het netwerk. Hiermee kunnen bestanden centraal worden opgeslagen, beheerd en benaderd via een webinterface.
 
