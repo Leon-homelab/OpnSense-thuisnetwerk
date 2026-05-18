@@ -16,6 +16,7 @@ Welkom bij mijn persoonlijke IT-homelab. Dit project toont hoe ik een profession
 | `PVE_start.png`        | Startscherm van PVE (proxmox)                                | 
 | `Grafana_firewall`     | Dashboard in grafana van firewallregels uit OPNsense        |
 | `Pi-Hole_dashboard`    | Dashboard van Pi-hole                                        |
+| `Proxmox.md`           | Uitleg inhoud proxmox server                                |
 
 ---
 
@@ -35,6 +36,7 @@ leon-homelab/
 ├── crowdsec.md
 ├── networkdiagram.png
 ├── portfolio.md
+├── Proxmox.md
 |── OPNsense desktop
 |── firewall-log
 └── README.md
