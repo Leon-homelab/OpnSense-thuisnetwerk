@@ -86,6 +86,20 @@ File Browser functioneert als een eenvoudige centrale fileserver binnen het netw
 
 ---
 
+## 🐉 Kali Linux VM
+
+Kali Linux wordt binnen het homelab gebruikt als security- en testomgeving voor netwerk- en beveiligingsanalyse. Deze virtual machine wordt ingezet voor het uitvoeren van securitytests en het analyseren van de netwerkconfiguratie.
+
+### Functionaliteiten
+
+* Netwerk- en securityanalyse
+* Testen van firewallregels
+* Vulnerability scanning
+* Monitoring van netwerkverkeer
+* Pentesting tools en security testing
+
+---
+
 # 🧠 Wat ik heb geleerd
 
 Door het opzetten en beheren van Proxmox binnen mijn homelab heb ik ervaring opgedaan met:
