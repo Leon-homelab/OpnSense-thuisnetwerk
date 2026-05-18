@@ -52,6 +52,7 @@ Dit project demonstreert:
 * Firewallregels gebaseerd op een "Fallback block" met logging
 * WireGuard VPN met beperkte toegang tot OPNsense GUI en toegang tot een raspberry pi5, waar nextcloud op draait
 * Integratie van IDS/IPS (Suricata) en gedragsschild (CrowdSec), die meldingen geeft naar telegram bij een IP ban
+* Het opzetten van een proxmox server
 * Documentatie van het hele netwerk inclusief configuratiebestanden en scripts
 
 ---
@@ -61,6 +62,7 @@ Dit project demonstreert:
 * Leren werken met OPNsense in een productieachtige omgeving
 * Begrip ontwikkelen van netwerksegmentatie, tagging en VLAN-routing
 * Configureren van veilige externe toegang met VPN
+* Installeren en beheren van een proxmoxserver met de verschillende vm's en containers
 * Detectie en logging automatiseren en analyseren
 * Project documenteren in Markdown en GitHub
 
@@ -79,6 +81,8 @@ Dit project demonstreert:
 * Segmentatie van netwerken verhoogt de veiligheid en beheersbaarheid
 * VPN-toegang beperken tot noodzakelijke apparaten verhoogt controle
 * IDS/IPS en gedragsschilden zijn onmisbaar voor detectie
+* Installeren van een proxmoxserver
+* Het maken van een grafana dashboard, het uitlezen van de firewall logs uit OPNsense
 * Documentatie en structuur helpen bij troubleshooting en overdraagbaarheid
 
 ---
