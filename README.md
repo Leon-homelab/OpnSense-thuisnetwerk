@@ -13,6 +13,9 @@ Welkom bij mijn persoonlijke IT-homelab. Dit project toont hoe ik een profession
 | `wireguard-config.md`  | Uitleg over de WireGuard setup en clientconfiguratie         |
 | `crowdsec-suricata.md` | Logging en detectieregels binnen het netwerk                 |
 | `portfolio.md`         | Portfolio-versie van het project voor sollicitatiedoeleinden |
+| `PVE_start.png`        | Startscherm van PVE (proxmox)                                | 
+| `Grafana_firewall`     | Dashboard in grafana van firewallregels uit OPNsense        |
+| `Pi-Hole_dashboard`    | Dashboard van Pi-hole                                        |
 
 ---
 
