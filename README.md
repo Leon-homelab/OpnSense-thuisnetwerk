@@ -84,7 +84,7 @@ Dit project demonstreert:
 * VPN-toegang beperken tot noodzakelijke apparaten verhoogt controle
 * IDS/IPS en gedragsschilden zijn onmisbaar voor detectie
 * Installeren en beheren van een proxmoxserver
-* Het inrichten van een backup strategie
+* Het opzetten en beheren van een back-upstrategie
 * Het maken van een grafana dashboard, het uitlezen van de firewall logs uit OPNsense
 * Documentatie en structuur helpen bij troubleshooting en overdraagbaarheid
 
