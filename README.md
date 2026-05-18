@@ -83,7 +83,8 @@ Dit project demonstreert:
 * Segmentatie van netwerken verhoogt de veiligheid en beheersbaarheid
 * VPN-toegang beperken tot noodzakelijke apparaten verhoogt controle
 * IDS/IPS en gedragsschilden zijn onmisbaar voor detectie
-* Installeren van een proxmoxserver
+* Installeren en beheren van een proxmoxserver
+* Het inrichten van een backup strategie
 * Het maken van een grafana dashboard, het uitlezen van de firewall logs uit OPNsense
 * Documentatie en structuur helpen bij troubleshooting en overdraagbaarheid
 
