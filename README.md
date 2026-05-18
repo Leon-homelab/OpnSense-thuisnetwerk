@@ -28,12 +28,15 @@ leon-homelab/
 │   └── vlans-overzicht.md
 |   ├── mikrotikCSS610_VLAN.png
 |   ├── mikrotikCSS610_VLANS.png
-├── wireguard-config.md
+├── wireguard-conf.md
+|── pi-hole dashboard
+|── PVE dashboard
+|── grafana dashboard
 ├── crowdsec.md
 ├── networkdiagram.png
 ├── portfolio.md
 |── OPNsense desktop
-|── firewall log
+|── firewall-log
 └── README.md
 ```
 
