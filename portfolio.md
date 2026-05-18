@@ -2,7 +2,11 @@
 
 ## 📌 Over dit project
 
-Dit project toont een volledig gesegmenteerd thuisnetwerk, opgezet met OPNsense, waarin meerdere VLAN’s zijn toegepast, VPN-toegang is gerealiseerd met WireGuard en detectie plaatsvindt via Suricata en CrowdSec. Het doel van dit project was om hands-on ervaring op te doen met netwerkbeheer, beveiliging en documentatie — met een focus op best practices.
+Dit project toont een volledig gesegmenteerd thuisnetwerk, opgebouwd met OPNsense. Binnen de omgeving zijn meerdere VLAN’s ingericht, VPN-toegang gerealiseerd met WireGuard en netwerkdetectie toegepast via Suricata en CrowdSec.
+
+Daarnaast heb ik een Proxmox-server opgezet waarop verschillende containers draaien, waaronder Grafana voor firewall-visualisatie, Pi-hole voor DNS-gebaseerde ad-blocking en een back-upserver.
+
+Het doel van dit project was om praktijkervaring op te doen met netwerkbeheer, systeembeheer, beveiliging en documentatie, met een sterke focus op best practices en security.
 
 ---
 
@@ -13,6 +17,9 @@ Dit project toont een volledig gesegmenteerd thuisnetwerk, opgezet met OPNsense,
 - **VPN**: WireGuard (met iOS-client)
 - **Monitoring**: Suricata IDS/IPS, CrowdSec integratie
 - **Netwerkarchitectuur**: Gescheiden netwerken (thuis, gasten, IoT, beheer)
+- **Backups**: Opzetten en beheren van een backup-strategie
+- **Datavisualisatie**: Datavisualisatie d.m.v. grafana
+- **DNS Filtering**: Ad-Blocker d.m.v. Pi-hole
 
 ---
 
@@ -20,10 +27,11 @@ Dit project toont een volledig gesegmenteerd thuisnetwerk, opgezet met OPNsense,
 
 | Component       | Beschrijving                                         |
 |------------------|------------------------------------------------------|
-| VLAN-segmentatie | 7 subnetten met individuele firewallregels           |
+| VLAN-segmentatie | 12 subnetten met individuele firewallregels           |
 | Firewallbeleid   | Expliciete exceptions + logging    |
 | VPN-toegang      | Alleen toegang tot NAS, videodeurbel en sensor       |
 | IDS/IPS          | Suricata actief op WAN-interface                     |
+| DNS-filtering    | Pi-Hole filterd op DNS niveau                       |
 | Logging          | Elke fallback block gelogd, gekoppeld aan CrowdSec  |
 
 ---
@@ -33,6 +41,10 @@ Dit project toont een volledig gesegmenteerd thuisnetwerk, opgezet met OPNsense,
 - Begrip van netwerksegmentatie, subnetting en tagging
 - Beheersing van firewall logica en VPN-configuratie
 - Bekendheid met intrusion detection en gedragsanalyse
+- Opzetten en beheren van een veilige netwerkarchitectuur
+- Inrichten van DNS-filtering en advertentieblokkering
+- Opzetten en beheren van een back-up strategie
+- Advertentie blocker (Pi-hole) inrichten
 - Capaciteit om complexe setups te documenteren
 - Zelfstandig leren, testen, falen en verbeteren
 
@@ -45,6 +57,9 @@ Zie de bestanden in deze repository voor:
 - Firewallregels en VLAN-indeling (`config/`)
 - WireGuard setup met clients (`wireguard-config.md`)
 - IDS en logginguitvoer (`crowdsec-suricata.md`)
+- PVE (proxmox) dashboard (`PVE_start.png`)
+- Grafana dashboard (`Grafana_firewall.png`)
+- Pi-Hole dashboard (`Pi-hole_dashboard.png`)
 
 ---
 
