@@ -49,11 +49,11 @@ Pi-hole functioneert als DNS-gebaseerde advertentie- en trackingblocker binnen h
 
 ## 💾 Backup Server CT
 
-Deze container wordt gebruikt voor het beheren en opslaan van back-ups van configuraties en belangrijke data binnen het homelab.
+In deze container draait proxmox backup server (PBS) en wordt gebruikt voor het beheren en opslaan van back-ups van configuraties en belangrijke data binnen het homelab.
 
 ### Functionaliteiten
 
-* Automatische back-ups
+* Automatische back-ups naar lokale opslag en een externe Raspberry Pi
 * Opslag van configuratiebestanden
 * Herstelmogelijkheden bij storingen
 * Onderdeel van de back-upstrategie
